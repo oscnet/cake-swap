@@ -1,0 +1,21 @@
+{
+  "name": "cake-swap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@ethersproject/bignumber": "^5.5.0",
+    "@ethersproject/contracts": "^5.5.0",
+    "@ethersproject/providers": "^5.5.2",
+    "@ethersproject/solidity": "^5.5.0",
+    "@ethersproject/units": "^5.5.0",
+    "@ethersproject/wallet": "^5.5.0",
+    "@pancakeswap/sdk": "^2.4.0",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "readline-sync": "^1.4.10"
+  }
+}
