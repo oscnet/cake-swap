@@ -27,6 +27,8 @@ const ERC20 = require('@pancakeswap-libs/pancake-swap-core/build/ERC20.json');
 
 const ROUTER_ADDRESS = '0x10ED43C718714eb63d5aA57B78B54704E256024E';
 
+import {mnemonic} from './config.js';
+
 function wrappedCurrency(currency, chainId) {
     return currency === ETHER ? WETH[chainId] : currency;
 }
